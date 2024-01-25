@@ -1,0 +1,20 @@
+//*
+//*    Objetivo:
+//*        Ir a la definición de la función saludar rápidamente
+//*
+//*    Tips:
+//*        Ojear definición   ⌥ F12
+//*        Ir a la definición F12
+//*
+//*        Ojear definición   Alt + F12
+//*        Ir a la definición F12
+//*
+//*        Cerrar Tabs Ctrl + W
+//*        Reabrir Tabs Ctrl + Shift + T 
+//*
+
+import { saludar } from './extra/funciones';
+
+const saludo = saludar( 'Thanos' );
+
+console.log(saludo);
